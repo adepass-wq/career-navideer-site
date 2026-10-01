@@ -157,3 +157,8 @@
 /* The original two-entry-point visual now explains the platform choice */
 .entry-choice-visual{max-width:900px;margin:0 auto 30px}.entry-choice-visual .app-bar img{width:50px;height:38px;object-fit:contain;object-position:left}.entry-choice-visual .app-dashboard-body{min-height:242px}.entry-choice-visual .app-welcome{padding:20px}.entry-choice-visual .app-welcome>b{font-size:1.1rem}.entry-choice-visual .app-start-grid>div{padding:15px}.entry-choice-visual .app-start-grid strong{font-size:.88rem}.entry-choice-visual .app-start-grid span{font-size:.72rem}.entry-choice-visual .app-start-grid em{font-size:.68rem}.entry-choice-visual .app-achievements{align-content:start}.entry-choice-visual .app-achievements>b{font-size:.82rem}.entry-choice-visual .app-achievements>strong{font-size:.95rem}
 @media(max-width:640px){.entry-choice-visual{margin-bottom:24px}.entry-choice-visual .app-avatar{display:none}.entry-choice-visual .app-dashboard-body{min-height:0}.entry-choice-visual .app-welcome{padding:15px}.entry-choice-visual .app-bar span{font-size:.65rem}.entry-choice-visual .app-bar small{display:none}}
+
+
+/* Separate the entry decision from the detailed product views */
+.authentic-platform .entry-choice-visual{margin-bottom:56px}.authentic-platform .authentic-grid{margin-top:0}
+@media(max-width:640px){.authentic-platform .entry-choice-visual{margin-bottom:38px}}
