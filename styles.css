@@ -129,3 +129,13 @@
 .role-platform-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.role-platform-grid>div{padding:23px;border:1px solid var(--line);border-radius:19px;background:#fff}.role-platform-grid>div>span{font-size:1.8rem}.role-platform-grid p{color:var(--muted);font-size:.87rem}.institution-platform{background:#f7fafc}.white-label-callout{margin-top:22px;padding:24px 26px;border-radius:20px;background:linear-gradient(120deg,#fff,#eef8f7);border:1px solid #d5e9e7;display:flex;justify-content:space-between;align-items:center;gap:28px}.white-label-callout small{font-size:.66rem;letter-spacing:.13em;color:var(--teal);font-weight:900}.white-label-callout h3{font-size:1.45rem;margin:.45rem 0}.white-label-callout p{margin:0;color:var(--muted);max-width:760px}
 @media(max-width:1000px){.role-platform-grid{grid-template-columns:1fr 1fr}.white-label-callout{align-items:flex-start;flex-direction:column}}
 @media(max-width:640px){.role-platform-grid{grid-template-columns:1fr}}
+
+/* CTE readability correction */
+.cte-home .lead,
+.cte-home .hero-lead,
+.cte-home p{color:#f7fbff!important}
+.cte-home .lead{font-weight:600;line-height:1.65;text-shadow:0 1px 1px rgba(0,0,0,.14)}
+.cte-home .eyebrow{color:#fff0b8!important}
+.cte-home h2{color:#fff}
+.cte-panel{background:rgba(4,31,51,.34);border-color:rgba(255,255,255,.30)}
+.cte-panel h3,.cte-panel b,.cte-panel li{color:#fff}
